@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+.pnp/
+.pnp.cjs
+
+# Cypress specific files/folders
+cypress/videos/
+cypress/screenshots/
+cypress/results/  # Or whatever folder your test reports are generated in
+cypress.env.json  # Crucial: This file contains sensitive env variables
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Misc temporary files
+*.tmp
